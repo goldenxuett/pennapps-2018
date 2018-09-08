@@ -4732,6 +4732,40 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "TensorFlowSharp/1.10.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TensorFlowSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TensorFlowSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/libtensorflow.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/linux/native/libtensorflow_framework.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/osx/native/libtensorflow.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libtensorflow_framework.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win7-x64/native/libtensorflow.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          }
+        }
+      },
       "WindowsAzure.Storage/8.1.4": {
         "type": "package",
         "dependencies": {
@@ -12504,6 +12538,26 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "TensorFlowSharp/1.10.0": {
+      "sha512": "SuuRdk8TP7IwDBrjJ4YWyg4wQ/xvPGfhIHp59k03F0uziwWAFmj67I5/Uaq6VFIHrwX9WiK76Nlp3DgvQ0bN3g==",
+      "type": "package",
+      "path": "tensorflowsharp/1.10.0",
+      "files": [
+        ".signature.p7s",
+        "build/net45/TensorFlowSharp.targets",
+        "lib/net471/TensorFlowSharp.dll",
+        "lib/net471/TensorFlowSharp.xml",
+        "lib/netstandard2.0/TensorFlowSharp.dll",
+        "lib/netstandard2.0/TensorFlowSharp.xml",
+        "runtimes/linux/native/libtensorflow.so",
+        "runtimes/linux/native/libtensorflow_framework.so",
+        "runtimes/osx/native/libtensorflow.dylib",
+        "runtimes/osx/native/libtensorflow_framework.dylib",
+        "runtimes/win7-x64/native/libtensorflow.dll",
+        "tensorflowsharp.1.10.0.nupkg.sha512",
+        "tensorflowsharp.nuspec"
+      ]
+    },
     "WindowsAzure.Storage/8.1.4": {
       "sha512": "W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "type": "package",
@@ -12530,7 +12584,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.3",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "TensorFlowSharp >= 1.10.0"
     ]
   },
   "packageFolders": {
@@ -12588,6 +12643,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "TensorFlowSharp": {
+            "target": "Package",
+            "version": "[1.10.0, )"
           }
         },
         "imports": [
