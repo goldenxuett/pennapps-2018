@@ -1,0 +1,11 @@
+C:\Users\Daniel\Desktop\PennApps\PennApps\bin\Debug\netcoreapp2.0\PennApps.deps.json
+C:\Users\Daniel\Desktop\PennApps\PennApps\bin\Debug\netcoreapp2.0\PennApps.runtimeconfig.json
+C:\Users\Daniel\Desktop\PennApps\PennApps\bin\Debug\netcoreapp2.0\PennApps.runtimeconfig.dev.json
+C:\Users\Daniel\Desktop\PennApps\PennApps\bin\Debug\netcoreapp2.0\PennApps.dll
+C:\Users\Daniel\Desktop\PennApps\PennApps\bin\Debug\netcoreapp2.0\PennApps.pdb
+C:\Users\Daniel\Desktop\PennApps\PennApps\obj\Debug\netcoreapp2.0\PennApps.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\PennApps\PennApps\obj\Debug\netcoreapp2.0\PennApps.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\PennApps\PennApps\obj\Debug\netcoreapp2.0\PennApps.AssemblyInfoInputs.cache
+C:\Users\Daniel\Desktop\PennApps\PennApps\obj\Debug\netcoreapp2.0\PennApps.AssemblyInfo.cs
+C:\Users\Daniel\Desktop\PennApps\PennApps\obj\Debug\netcoreapp2.0\PennApps.dll
+C:\Users\Daniel\Desktop\PennApps\PennApps\obj\Debug\netcoreapp2.0\PennApps.pdb
